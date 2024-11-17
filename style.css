@@ -548,13 +548,6 @@
         left: 18%;
     }
 
-    .bar {
-
-        display: flex;
-        position: absolute;
-        left: 6%;
-    }
-
     .free-product{
 
         display: flex;
@@ -571,6 +564,13 @@
     .testing-free{
 
         text-align: center; 
+    }
+
+    .bar {
+
+        display: flex;
+        position: absolute;
+        left: 6%;
     }
 
 
