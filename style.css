@@ -555,6 +555,24 @@
         left: 6%;
     }
 
+        .free-product{
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .image{
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .testing-free{
+
+        /* text-align: left; */
+    }
+
 
     .links {
 
