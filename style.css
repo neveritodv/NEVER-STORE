@@ -555,7 +555,7 @@
         left: 6%;
     }
 
-        .free-product{
+    .free-product{
 
         display: flex;
         flex-direction: column;
@@ -570,7 +570,7 @@
 
     .testing-free{
 
-        text-align: center;
+        text-align: center; 
     }
 
 
