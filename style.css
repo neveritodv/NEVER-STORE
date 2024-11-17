@@ -1,0 +1,834 @@
+* {
+
+
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.container {
+
+
+    min-height: 100vh;
+
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2l4NThjMjEyeGR5N2gybmUyOWFrY2oxdzZrbm9xNGkzczdtNzVldSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jaOXKCxtBPLieRLI0c/giphy.webp);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+
+}
+
+.top {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding-left: 12%;
+    position: relative;
+    
+    gap: 40px;
+}
+
+.bar {
+
+    color: white;
+    position: absolute;
+    top: 35%;
+    font-size: 28px;
+    display: none;
+
+}
+
+
+.logo {
+
+    position: absolute;
+    left: 6%;
+    color: green;
+    font-size: 1.2rem;
+    padding-right: 4%;
+
+}
+
+
+#menuswitch {
+    display: none;
+}
+
+
+
+.links {
+
+    display: flex;
+    gap: 40px;
+}
+
+.links a {
+    font-size: larger;
+    color: white;
+}
+
+.acc {
+
+    color: white;
+    display: flex;
+    gap: 20px;
+    padding-right: 2%;
+
+}
+
+
+
+
+.login {
+    width: 100px;
+    height: 50px;
+    border: 2px solid red;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    height: 50px;
+    border: 2px solid red;
+    color: white;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+.login a {
+
+
+    color: white;
+
+}
+
+.sign-up a {
+
+
+    color: white;
+
+}
+
+.accs {
+
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+
+.accs a {
+    color: white;
+    font-size: larger;
+
+}
+
+.solde {
+
+    display: none;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.slash {
+
+    font-size: 25px;
+}
+
+.main {
+    margin-top: 175px;
+    color: white;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.welcome {
+
+    padding-left: 6%;
+    font-size: x-large;
+}
+
+.welcomemsg {
+
+    color: green;
+}
+
+
+.panel-never {
+
+    font-size: 48px;
+    padding-left: 5%;
+
+
+
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    color: greenyellow;
+    margin-top: 100px;
+    padding: 0 6%;
+    font-size: xx-large;
+
+
+
+}
+
+.p1 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-right: 2px solid green;
+    padding-right: 50px;
+    font-size: 24px;
+    padding-top: 10px;
+
+
+
+}
+
+.h1numebers {
+
+    color: white;
+    font-size: 32px;
+}
+
+.abtme {
+
+    color: yellowgreen;
+}
+
+
+.aboutme {
+
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding-left: 6%;
+    margin-top: 100px;
+    color: white;
+}
+
+.paboutme {
+
+    padding-left: 7%;
+    font-size: xx-large;
+}
+
+
+.free-product {
+
+
+    margin-top: 70px;
+    padding-left: 6%;
+    justify-content: space-between;
+    display: flex;
+    padding-right: 6%;
+}
+
+.testing-free {
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 400px;
+
+
+}
+
+
+.testing-free a {
+    height: 70px;
+    width: 200px;
+    border: 2px solid green;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: green;
+    font-size: larger;
+
+
+
+
+
+}
+
+
+.h1text {
+
+    color: greenyellow;
+}
+
+.pfree {
+    font-size: 48px;
+    color: white;
+
+}
+
+
+.main-free {
+
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+
+
+.testing-free {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    /* padding-bottom: 20px; */
+}
+
+
+
+.ourgame {
+
+    margin-top: 100px;
+
+}
+
+.img-games {
+
+
+    display: flex;
+
+    padding-left: 4%;
+    padding-bottom: 60px;
+    padding-right: 4%;
+    justify-content: space-between;
+
+
+}
+
+.img1 img {
+
+    height: 350px;
+    width: 225px;
+    position: relative;
+}
+
+.img1 h2 {
+
+    color: white;
+    text-align: center;
+
+
+}
+
+.img1 img:hover {
+
+    filter: grayscale(1);
+    height: 400px;
+    width: 275px;
+
+
+
+}
+
+
+.why-us {
+
+    margin-top: 100px;
+    width: 100%;
+}
+
+.whyush2 {
+
+    color: green;
+    padding-left: 20%;
+    padding-bottom: 40px;
+}
+
+.whyush1 {
+
+    color: white;
+    font-size: xx-large;
+    padding-left: 12%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.desus {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 6%;
+    padding-right: 2%;
+    gap: 40px;
+    padding-bottom: 25px;
+
+}
+
+.desuscolor {
+
+    color: white;
+}
+
+.desform {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+
+
+}
+
+.hr {
+
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+.avatar {
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+
+
+.avatar img {
+
+    height: 300px;
+    width: 400px;
+    border-radius: 50%;
+
+}
+
+.avtrcolorh2 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    color: yellowgreen;
+}
+
+.avtrcolorh1 {
+    font-size: 50px;
+    margin-top: 12px;
+    letter-spacing: 6px;
+    color: white;
+}
+
+.want-prduct {
+    background-image: url(img/bgc/modern-background-abstract-gaming-background-vector.jpg);
+    width: 100%;
+    background-position: center;
+    height: 700px;
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+
+}
+
+.wanth1 {
+
+    padding-bottom: 10px;
+    font-size: 38px;
+
+}
+
+.wanth2 {
+
+    font-size: 38px;
+}
+
+.wanth3 {
+    padding-top: 1%;
+    font-size: 58px;
+}
+
+.cus {
+    margin-top: 85px;
+    width: 260px;
+    height: 120px;
+
+
+    border: 3px solid green;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+
+}
+
+.cus a {
+
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+
+}
+
+.foter {
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+
+
+    color: white;
+
+    height: 120px;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+
+.copyright a {
+    color: white;
+}
+
+.policies {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding-right: 2%;
+    gap: 30px;
+}
+
+.policies a {
+
+    color: white;
+}
+
+
+@media(max-width:968px) {
+
+    .logo {
+
+        position: absolute;
+        left: 18%;
+    }
+
+    .bar {
+
+        display: flex;
+        position: absolute;
+        left: 6%;
+    }
+
+
+    .links {
+
+        display: none;
+    }
+
+    .acc {
+        display: flex;
+        padding-right: 2%;
+
+    }
+
+    .login {
+        display: none;
+    }
+
+    .sign-up {
+        display: none;
+    }
+
+    .games {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .numbers {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+
+    .p1 {
+        border-right: none;
+    }
+
+    .ourgame {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-games {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .img1 h2 {
+
+
+        display: flex;
+
+
+
+    }
+
+    .why-us {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whyush2 {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .desus {
+
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+
+
+
+    .img1 {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 4%;
+        gap: 18px;
+
+    }
+
+    .imgspan {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .solde {
+
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    #menuswitch~.container .links {
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 85px;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+
+        transform: translateX(-100%);
+
+        transition: 0.8s;
+
+        /* padding-top: 20%; */
+
+
+    }
+
+    #menuswitch~.container .links a:last-child {
+
+
+        display: none;
+
+
+    }
+
+    #menuswitch:checked~.container .links a:last-child {
+
+
+        display: flex;
+
+
+    }
+
+
+    .whyush1 {
+
+        padding-left: 0;
+    }
+
+    .whyush2 {
+
+        padding-left: 8%;
+
+    }
+
+    .paboutme {
+        padding-left: 0;
+
+    }
+
+
+
+
+    #menuswitch:checked~.container .links {
+
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        height: 116vh;
+        background-color: black;
+        top: 80px;
+
+        transform: translateX(0);
+        transition: 0.8s;
+
+
+
+
+
+
+
+
+    }
+
+    #menuswitch~.container .login {
+
+
+        display: flex;
+
+        gap: 85px;
+        position: absolute;
+        /* top: 80px; */
+        left: 0;
+
+
+        transform: translateX(-100%);
+
+        transition: 0.8s;
+        top: 160%;
+
+
+
+    }
+
+
+
+
+    #menuswitch~.container .sign-up {
+
+
+        display: flex;
+
+        gap: 85px;
+        position: absolute;
+        /* top: 80px; */
+        left: 0;
+
+        top: 160%;
+        transform: translateX(-100%);
+
+        transition: 0.8s;
+
+
+
+
+    }
+
+
+    #menuswitch:checked~.container .login {
+
+        display: flex;
+
+
+
+        left: 60%;
+
+        top: 160%;
+
+        transform: translateX(-0%);
+        transition: 0.8s;
+
+
+    }
+
+
+    #menuswitch:checked~.container .sign-up {
+
+
+
+        display: flex;
+
+
+
+        left: 30%;
+
+        top: 160%;
+
+        transform: translateX(0%);
+        transition: 0.8s;
+
+
+    }
+
+    .foter {
+
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .policies {
+
+        padding-left: 2%;
+
+    }
+
+
+
+}

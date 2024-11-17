@@ -1,0 +1,308 @@
+* {
+
+
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.container {
+
+
+    min-height: 100vh;
+
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2l4NThjMjEyeGR5N2gybmUyOWFrY2oxdzZrbm9xNGkzczdtNzVldSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jaOXKCxtBPLieRLI0c/giphy.webp);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.top {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    /* padding-left: 6%; */
+    padding-right: 3%;
+    position: relative;
+    
+}
+
+#menuswitch {
+    display: none;
+}
+
+.bar {
+
+    color: white;
+    position: absolute;
+    top: 25%;
+    font-size: 28px;
+    display: none;
+
+}
+
+.logo {
+
+    color: green;
+    font-size: 1.2rem;
+
+    position: absolute;
+    left: 6%;
+
+
+}
+
+.links {
+
+    display: flex;
+    gap: 40px;
+}
+
+.links a {
+    font-size: larger;
+    color: white;
+}
+
+.main {
+
+    /* padding-top: 100px; */
+    /* padding-bottom: 100px; */
+    /* margin-top: 100px; */
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.login {
+
+
+
+    height: 600px;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+
+
+    background-color: #222222;
+}
+
+.logoh1 {
+
+    width: 100%;
+    color: green;
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+}
+
+.input {
+
+
+
+    padding-top: 40px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.input .inpt {
+
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    width: 75%;
+    height: 50px;
+    background-color: #333333;
+}
+
+
+.trdsection {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.spnlogin{
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: blue;
+}
+
+.trdsection a{
+    color: white;
+    font-size: large;
+    display: flex;
+    
+}
+
+.trdsection a:last-child {
+
+    color: white;
+    font-size: large;
+    text-decoration: underline;
+}
+
+.trdsection a:nth-child(2) {
+    color: green;
+    font-size: large;
+}
+
+.submit {
+
+    padding-top: 30px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.submit a {
+    width: 225px;
+    height: 50px;
+    border-radius: 8px;
+    color: white;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+
+.accs {
+
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.acc {
+
+    color: white;
+    display: flex;
+    gap: 20px;
+
+}
+
+.solde {
+
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.slash {
+
+    font-size: 25px;
+}
+
+.spnlogin {
+    font-size: large;
+    gap: 25px;
+}
+
+
+@media(max-width:968px){
+
+
+.links{
+
+    display: none;
+}
+
+.logo{
+
+    position: absolute;
+    left: 18%;
+}
+
+.bar{
+
+    display: flex;
+    position: absolute;
+    left: 6%;
+    top: 35%;
+    
+}
+
+
+#menuswitch~.container .links {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    transform: translateX(-100%);
+
+    transition: 0.8s;
+
+    /* padding-top: 20%; */
+
+
+}
+
+#menuswitch~.container .links a:last-child {
+
+
+    display: none;
+
+
+}
+
+#menuswitch:checked~.container .links a:last-child {
+
+
+    display: flex;
+
+
+}
+
+#menuswitch:checked~.container .links {
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    top: 80px;
+
+    transform: translateX(0);
+    transition: 0.8s;
+
+
+
+
+
+
+
+
+}
+
+
+
+}

@@ -1,0 +1,415 @@
+* {
+
+
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.container {
+
+
+    min-height: 100vh;
+
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2l4NThjMjEyeGR5N2gybmUyOWFrY2oxdzZrbm9xNGkzczdtNzVldSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jaOXKCxtBPLieRLI0c/giphy.webp);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.top {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding-left: 12%;
+    position: relative;
+    
+    gap: 40px;
+}
+
+.bar {
+
+    color: white;
+    position: absolute;
+    top: 35%;
+    font-size: 28px;
+    display: none;
+
+}
+
+
+
+
+.logo {
+
+    position: absolute;
+    left: 6%;
+    color: green;
+    font-size: 1.2rem;
+    padding-right: 4%;
+
+}
+
+
+#menuswitch {
+    display: none;
+}
+
+.links {
+
+    display: flex;
+    gap: 40px;
+}
+
+.links a {
+    font-size: larger;
+    color: white;
+}
+
+.acc {
+
+    color: white;
+    display: flex;
+    gap: 20px;
+    padding-right: 2%;
+
+}
+
+.login {
+    width: 100px;
+    height: 50px;
+    border: 2px solid red;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    height: 50px;
+    border: 2px solid red;
+    color: white;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+.login a {
+
+
+    color: white;
+
+}
+
+.sign-up a {
+
+
+    color: white;
+
+}
+
+.accs {
+
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.accs a {
+    color: white;
+    font-size: larger;
+
+}
+
+.our-product{
+
+    display: flex;
+    /* padding-left: 1%;
+    padding-right: 1%; */
+    margin-top: 100px;
+    
+    justify-content: space-between;
+}
+
+
+
+.img1 img {
+    
+    width: 327px;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+.img1{
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2%;
+    
+}
+
+.img1 a{
+
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    
+    
+}
+
+
+.acc {
+
+    color: white;
+    display: flex;
+    gap: 20px;
+
+}
+
+.solde {
+
+    display: none;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.slash {
+
+    font-size: 25px;
+}
+
+
+
+
+@media(max-width:968px) {
+
+    .logo {
+
+        position: absolute;
+        left: 18%;
+    }
+
+    .bar {
+
+        display: flex;
+        position: absolute;
+        left: 6%;
+    }
+
+
+    .solde{
+
+        display: flex;
+    }
+
+
+
+
+    .links {
+
+        display: none;
+    }
+
+    .acc {
+        display: flex;
+        padding-right: 2%;
+
+    }
+
+    .login {
+        display: none;
+    }
+
+    .sign-up {
+        display: none;
+    }
+
+    .our-product{
+
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+
+
+    #menuswitch~.container .links {
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 85px;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+
+        transform: translateX(-100%);
+
+        transition: 0.8s;
+
+        /* padding-top: 20%; */
+
+
+    }
+
+
+    #menuswitch:checked~.container .links {
+
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        height: 116vh;
+        background-color: black;
+        top: 80px;
+
+        transform: translateX(0);
+        transition: 0.8s;
+
+
+
+
+
+
+
+
+    }
+
+
+    #menuswitch~.container .links a:last-child {
+
+
+        display: none;
+
+
+    }
+
+    #menuswitch:checked~.container .links a:last-child {
+
+
+        display: flex;
+
+
+    }
+
+    #menuswitch~.container .login {
+
+
+        display: flex;
+
+        gap: 85px;
+        position: absolute;
+        /* top: 80px; */
+        left: 0;
+
+
+        transform: translateX(-100%);
+
+        transition: 0.8s;
+        top: 160%;
+
+
+
+    }
+
+
+    #menuswitch~.container .sign-up {
+
+
+        display: flex;
+
+        gap: 85px;
+        position: absolute;
+        /* top: 80px; */
+        left: 0;
+
+        top: 160%;
+        transform: translateX(-100%);
+
+        transition: 0.8s;
+
+
+
+
+    }
+
+
+    #menuswitch:checked~.container .login {
+
+        display: flex;
+
+
+
+        left: 60%;
+
+        top: 160%;
+
+        transform: translateX(-0%);
+        transition: 0.8s;
+
+
+    }
+
+
+    #menuswitch:checked~.container .sign-up {
+
+
+
+        display: flex;
+
+
+
+        left: 30%;
+
+        top: 160%;
+
+        transform: translateX(0%);
+        transition: 0.8s;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
