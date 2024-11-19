@@ -376,7 +376,7 @@
 
     color: white;
     font-size: xx-large;
-    padding-left: 12%;
+    /* padding-left: 12%; */
     letter-spacing: 2px;
     text-align: center;
 }
@@ -386,7 +386,8 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-left: 6%;
+    padding-left: 3%;
+
     padding-right: 2%;
     gap: 40px;
     padding-bottom: 25px;
@@ -888,6 +889,16 @@
 
 
 @media(max-width:1024px) {
+
+
+
+    .whyush1 {
+        color: white;
+        font-size: xx-large;
+        padding-left: 0%;
+        letter-spacing: 2px;
+        text-align: center;
+    }
 
     .img1 img {
         height: 350px;
